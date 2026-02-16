@@ -39,8 +39,6 @@
 <br>
 
 ### [행위자 기반 모형(Agent-Based Model, ABM)]
-<br> 
-
 ### Simulation Flowchart
 
 
