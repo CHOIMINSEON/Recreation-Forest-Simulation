@@ -1,6 +1,21 @@
 # Recreation-Forest-Simulation
 * 전국 휴양림 데이터의 지오코딩을 진행해 분포를 시각화
 * 방문자 데이터를 전처리해 방문차 통계를 확인
+  
+ ```text 
+  Recreation-Forest-Simulation/
+├── 📂 R/                     # 핵심 시뮬레이션 코드 (Core Simulation)
+│   ├── run.R                 # [메인] 실행 파일
+│   ├── createAgents.R        # 에이전트 생성
+│   ├── getDist.R             # 거리 행렬 계산
+│   └── (agent.*.R / lodge.*.R) # 의사결정 로직
+│
+├── # 데이터 전처리 도구 (Tools)
+├── Coordinate Transformation.py  # 좌표계 변환 (TM -> WGS84)
+├── visitor_distance.py           # 거리 계산 (OD Analysis)
+├── Geocoding.R                   # 주소 -> 좌표 변환
+└── README.md                 # 프로젝트 설명서
+```
 
 **[전국 휴양림 지도 시각화]**
 
