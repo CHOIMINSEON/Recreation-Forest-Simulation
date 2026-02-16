@@ -28,13 +28,14 @@
 <img width="370" height="543" alt="image" src="https://github.com/user-attachments/assets/92d4c28a-3293-4f47-8ae2-f3a1a1756fae" />
 
 <br>
+<br>
 
 **[실제 휴양림 방문자 통계]**
 
 <img width="1161" height="552" alt="image" src="https://github.com/user-attachments/assets/ae3cd1d2-ff62-448b-a9ac-260f7c5753a7" />
 
 <br>
-
+<br>
 
 **[행위자 기반 모형(Agent-Based Model, ABM)]**
 <br>
