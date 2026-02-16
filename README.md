@@ -2,6 +2,7 @@
 * 전국 휴양림 데이터의 지오코딩을 진행해 분포를 시각화
 * 방문자 데이터를 전처리해 방문차 통계를 확인
 
+###Directory Structure
 
  ```text 
   Recreation-Forest-Simulation/
