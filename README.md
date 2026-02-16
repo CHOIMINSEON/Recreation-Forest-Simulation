@@ -37,6 +37,6 @@
       ▼
 [END: Visualization]
       └── run.R (결과 그래프 출력)
-```mermaid
+```
 
 <img width="566" height="410" alt="Rplot02" src="https://github.com/user-attachments/assets/925f04d3-0290-4422-b9be-0cb5975ad1ff" />
