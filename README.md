@@ -14,7 +14,7 @@
 **[행위자 기반 모형(Agent-Based Model, ABM)]**
 
 ### 🔄 Simulation Flowchart
-```
+```mermaid
 [START: run.R]
       │
       ├── 1. Setup Phase
