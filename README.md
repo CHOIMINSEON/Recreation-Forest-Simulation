@@ -14,7 +14,30 @@
 **[행위자 기반 모형(Agent-Based Model, ABM)]**
 
 ### Simulation Flowchart
-
+```mermaid
+[START: run.R]
+      │
+      ├── 1. Setup Phase
+      │     ├── createAgents.R  (가상 이용객 500명 생성)
+      │     └── getDist.R       (거주지-휴양림 거리 계산)
+      │
+      ▼
+[LOOP: 1 to 52 Weeks] ──────────────────────────────┐
+      │                                             │
+      ├── 2. Agent Decision Process (개인)          │
+      │     ├── agent.consider.R (갈까 말까? 확률 계산)
+      │     ├── agent.search.R   (어디 갈까? 점수 평가)
+      │     └── agent.decide.R   (신청 완료)
+      │                                             │
+      ├── 3. System Process (시설)                  │
+      │     └── lodge.decide.R   (추첨 및 배정)      │
+      │                                             │
+      └─────────────────────────────────────────────┘
+      │
+      ▼
+[END: Visualization]
+      └── run.R (결과 그래프 출력)
+```
 
 
 
