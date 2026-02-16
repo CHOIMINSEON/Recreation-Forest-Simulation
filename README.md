@@ -1,7 +1,8 @@
 # Recreation-Forest-Simulation
 * 전국 휴양림 데이터의 지오코딩을 진행해 분포를 시각화
 * 방문자 데이터를 전처리해 방문차 통계를 확인
-  
+
+
  ```text 
   Recreation-Forest-Simulation/
 ├── 📂 R/                     # 핵심 시뮬레이션 코드 (Core Simulation)
@@ -16,6 +17,7 @@
 ├── Geocoding.R                   # 주소 -> 좌표 변환
 └── README.md                 # 프로젝트 설명서
 ```
+
 
 **[전국 휴양림 지도 시각화]**
 
